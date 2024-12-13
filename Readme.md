@@ -37,7 +37,8 @@ Las tres funciones que podrian hacer el codigo más facil de entender son:
 
 1. Recorrer tablero de las damas: Funcion que recorra el tablero de damas
 2. Averiguar jugador ganador: Comparar el numero de fichas de cada jugador
-3. Mostrar fichas: Mostrar que hay fichas en determinadas posiciones 
+3. Mostrar fichas: Mostrar que hay fichas en determinadas posiciones
+4. Saber quien tiene más fichas: Obtener si uno u otro tiene más fichas
 
 ## Cuarto apartado
 Aqui se especificara el javadoc de las diversas funciones
@@ -62,5 +63,14 @@ Aqui se especificara el javadoc de las diversas funciones
 /**
  * Mostrar que hay fichas en la posicion X Y en caso de que las haya
  * @param posicionActual la posicion actual del tablero en la que estamos
+ */
+```
+- Cuarta funcion: Saber quien tiene más fichas
+```java
+/**
+ * Obtener el que tiene más fichas
+ * @param contNegras la cantidad de fichas negras
+ * @param contBlancas la cantidad de fichas blancas
+ * @return true si hay más negras que blancas sino se obtiene false
  */
 ```
