@@ -16,24 +16,38 @@ Diagrama de flujo programa para ver fichas en un tablero de damas
 
 El tablero es de la siguiente manera
 
-![Imagen del tablero](img.png)
+```java
+String[][] damas = {
+    {null, "N", null, "N", null, "N", null, "N"},
+    {"N", null, "N", null, "N", null, "N", null},
+    {null, "N", null, "N", null, "N", null, "N"},
+    {null, null, null, null, null, null, null, null},
+    {null, null, null, null, null, null, null, null},
+    {"B", null, "B", null, "B", null, "B", null},
+    {null, "B", null, "B", null, "B", null, "B"},
+    {"B", null, "B", null, "B", null, "B", null}
+};
+
+```
+
+
+El null lo pondria a nivel de codigo para que quede bien lo especifique aqui para no se indicar las casillas vacias
 
 ## Tercer apartado
 Las tres funciones que podrian hacer el codigo más facil de entender son:
 
-1. 
+1. Recorrer tablero de las damas: Funcion que recorra el tablero de damas
 2. Averiguar jugador ganador: Comparar el numero de fichas de cada jugador
 3. Mostrar fichas: Mostrar que hay fichas en determinadas posiciones 
 
 ## Cuarto apartado
 Aqui se especificara el javadoc de las diversas funciones
 
-- Primera funcion: Averiguar tipo de ficha
+- Primera funcion: Recorrer el tablero
 ```java
 /**
- * Obtener tipo ficha
- * @param posicion le pasamos la posicion actual en el tablero para verificarla
- * @return blanca o negra dependiendo del tipo de ficha
+ * Recorremos el tablero para poder verificar individualmente cada casilla
+ * @param tablero le pasamos el tablero de damas que queremos recorrer
  */
 ```
 - Segunda funcion: Averiguar jugador ganador
