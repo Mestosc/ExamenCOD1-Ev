@@ -30,8 +30,7 @@ String[][] damas = {
 
 ```
 
-
-El null lo pondria a nivel de codigo para que quede bien lo especifique aqui para no se indicar las casillas vacias
+El `null` lo pongo para reflejar posicion vacia
 
 ## Tercer apartado
 Las tres funciones que podrian hacer el codigo más facil de entender son:
