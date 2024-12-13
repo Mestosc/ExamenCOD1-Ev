@@ -39,7 +39,7 @@ Las tres funciones que podrian hacer el codigo más facil de entender son:
 2. Mostrar jugador ganador: Comparar el numero de fichas de cada jugador
 3. Mostrar fichas: Mostrar que hay fichas en determinadas posiciones
 4. Averiguar ganador: Obtener si uno u otro tiene más fichas
-
+5. Saber fichas son Blancas o Negras: Obtener el tipo de ficha
 ## Cuarto apartado
 Aqui se especificara el javadoc de las diversas funciones
 
@@ -72,5 +72,13 @@ Aqui se especificara el javadoc de las diversas funciones
  * @param contNegras la cantidad de fichas negras
  * @param contBlancas la cantidad de fichas blancas
  * @return true si hay más negras que blancas sino se obtiene false
+ */
+```
+- Quinta funcion: Saber fichas son blancas o negras
+```java
+/**
+ * Saber si las fichas son blancas o negras
+ * @param contenido le pasamos el tablero con las coordenadas a revisar
+ * @return devuelve true si son negras y false si son blancas
  */
 ```
