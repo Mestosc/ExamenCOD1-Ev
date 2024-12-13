@@ -36,9 +36,9 @@ El `null` lo pongo para reflejar posicion vacia
 Las tres funciones que podrian hacer el codigo más facil de entender son:
 
 1. Recorrer tablero de las damas: Funcion que recorra el tablero de damas
-2. Averiguar jugador ganador: Comparar el numero de fichas de cada jugador
+2. Mostrar jugador ganador: Comparar el numero de fichas de cada jugador
 3. Mostrar fichas: Mostrar que hay fichas en determinadas posiciones
-4. Saber quien tiene más fichas: Obtener si uno u otro tiene más fichas
+4. Averiguar ganador: Obtener si uno u otro tiene más fichas
 
 ## Cuarto apartado
 Aqui se especificara el javadoc de las diversas funciones
@@ -50,7 +50,7 @@ Aqui se especificara el javadoc de las diversas funciones
  * @param tablero le pasamos el tablero de damas que queremos recorrer
  */
 ```
-- Segunda funcion: Averiguar jugador ganador
+- Segunda funcion: Mostrar jugador ganador
 ```java
 /**
  * Saber que jugador va ganando
